@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotezApp.API", "NotezApp.API\NotezApp.API.csproj", "{BA4B0F69-9283-44B9-A494-1DC49C97799D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - API", "1 - API", "{AA3E27AE-BB02-47F0-B509-FFBDE150C438}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{2775576E-F8E8-460D-892B-296485BC12B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Data", "3 - Data", "{6D3BB56F-3119-4B0E-AEBA-125157192AE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotezApp.Domain", "NotezApp.Domain\NotezApp.Domain.csproj", "{970CEE1F-440E-4A94-91B6-0E66959658B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotezApp.Business", "NotezApp.Business\NotezApp.Business.csproj", "{BE245DFE-EF12-4920-BE4D-AE33876C84DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotezApp.Data", "NotezApp.Data\NotezApp.Data.csproj", "{3346591A-D861-4AC2-B41B-DB3116EA7129}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA4B0F69-9283-44B9-A494-1DC49C97799D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA4B0F69-9283-44B9-A494-1DC49C97799D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA4B0F69-9283-44B9-A494-1DC49C97799D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA4B0F69-9283-44B9-A494-1DC49C97799D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{970CEE1F-440E-4A94-91B6-0E66959658B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{970CEE1F-440E-4A94-91B6-0E66959658B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{970CEE1F-440E-4A94-91B6-0E66959658B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{970CEE1F-440E-4A94-91B6-0E66959658B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE245DFE-EF12-4920-BE4D-AE33876C84DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE245DFE-EF12-4920-BE4D-AE33876C84DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE245DFE-EF12-4920-BE4D-AE33876C84DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE245DFE-EF12-4920-BE4D-AE33876C84DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3346591A-D861-4AC2-B41B-DB3116EA7129}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3346591A-D861-4AC2-B41B-DB3116EA7129}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3346591A-D861-4AC2-B41B-DB3116EA7129}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3346591A-D861-4AC2-B41B-DB3116EA7129}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BA4B0F69-9283-44B9-A494-1DC49C97799D} = {AA3E27AE-BB02-47F0-B509-FFBDE150C438}
+		{970CEE1F-440E-4A94-91B6-0E66959658B4} = {2775576E-F8E8-460D-892B-296485BC12B1}
+		{BE245DFE-EF12-4920-BE4D-AE33876C84DA} = {2775576E-F8E8-460D-892B-296485BC12B1}
+		{3346591A-D861-4AC2-B41B-DB3116EA7129} = {6D3BB56F-3119-4B0E-AEBA-125157192AE0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D0185DC-5328-4C2A-AC99-F8F5917C05DA}
+	EndGlobalSection
+EndGlobal
